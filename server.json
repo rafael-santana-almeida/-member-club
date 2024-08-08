@@ -2,7 +2,8 @@
   "clients": [
     {
       "id": "124-537-835-230",
-      "name": "Natália Miranda",
+      "name": "Rafael Santana",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46360769?v=4",
       "clientSince": "18/09/2023",
       "appointmentHistory": [
         {
@@ -38,7 +39,8 @@
     },
     {
       "id": "207-245-699-104",
-      "name": "Capitão Nascimento",
+      "name": "Diego Fernandes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2254731?v=4",
       "clientSince": "12/04/2023",
       "appointmentHistory": [
         {
@@ -66,7 +68,8 @@
     },
     {
       "id": "523-114-876-908",
-      "name": "Sansão",
+      "name": "Filipe Dechamps",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4248081?v=4",
       "clientSince": "15/07/2023",
       "appointmentHistory": [
         {
