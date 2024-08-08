@@ -17,7 +17,7 @@
     justify-content: center;
     gap: 0.25rem;
 
-    strong {
+    h1 {
       font: var(--title-sm);
       color: var(--gray-600);
     }
@@ -41,7 +41,7 @@
   }
 
   img {
-    width: 90%;
+    width: 94%;
     border-radius: inherit;
     border: 2px solid var(--gray-100);
   }
