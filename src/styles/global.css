@@ -33,3 +33,7 @@
 body {
   background-color: var(--gray-200);
 }
+
+ul {
+  list-style: none;
+}
