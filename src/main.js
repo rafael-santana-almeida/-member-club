@@ -8,3 +8,6 @@ import "./styles/loyalty-card.css"
 import "./styles/progress.css"
 import "./styles/user.css"
 
+import "./modules/Form/input.js"
+import "./modules/Form/submit.js"
+

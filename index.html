@@ -21,8 +21,8 @@
       <img src="src/assets/Logo.png" alt="Member Club">
 
       <form>
-        <input type="text" placeholder="ID do cartão">
-        <button disabled>
+        <input id="loayaltyCardId" name="loayaltyCardId" type="text" placeholder="ID do cartão">
+        <button type="submit" disabled>
           <img src="src/assets/icons/arrow-elbow-down-left.svg" alt="Pesquisar">
         </button>
       </form>
@@ -31,11 +31,11 @@
     <main>
       <section class="user-container">
         <div class="gradient-container">
-          <img src="https://avatars.githubusercontent.com/u/4248081?v=4" alt="">
+          <img id="avatarImg" src="https://avatars.githubusercontent.com/u/4248081?v=4" alt="">
         </div>
         <div class="user-info">
-          <h1>Filipe Dechamps</h1>
-          <span>Cliente desde 18/09/2023</span>
+          <h1 id="clientName">Filipe Dechamps</h1>
+          <span id="clientSince">Cliente desde 18/09/2023</span>
         </div>
       </section>
       <section class="loyalty-card-container">
@@ -85,11 +85,11 @@
         <div class="history-content">
           <header>
             <h3>Histórico</h3>
-            <span>7 cortes</span>
+            <span id="amount">7 cortes</span>
           </header>
 
-          <ul>
-            <li>
+          <ul id="historyList">
+            <!-- <li>
               <div>
                 <strong>29/04/2024</strong>
                 <span>18:30</span>
@@ -98,77 +98,7 @@
               <div>
                 <img src="/src/assets/icons/seal-check.svg" alt="Check">
               </div>
-            </li>
-            <li>
-              <div>
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
-              </div>
-
-              <div>
-                <img src="/src/assets/icons/seal-check.svg" alt="Check">
-              </div>
-            </li>
-            <li>
-              <div>
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
-              </div>
-
-              <div>
-                <img src="/src/assets/icons/seal-check.svg" alt="Check">
-              </div>
-            </li>
-            <li>
-              <div>
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
-              </div>
-
-              <div>
-                <img src="/src/assets/icons/seal-check.svg" alt="Check">
-              </div>
-            </li>
-            <li>
-              <div>
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
-              </div>
-
-              <div>
-                <img src="/src/assets/icons/seal-check.svg" alt="Check">
-              </div>
-            </li>
-            <li>
-              <div>
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
-              </div>
-
-              <div>
-                <img src="/src/assets/icons/seal-check.svg" alt="Check">
-              </div>
-            </li>
-            <li>
-              <div>
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
-              </div>
-
-              <div>
-                <img src="/src/assets/icons/seal-check.svg" alt="Check">
-              </div>
-            </li>
-            <li>
-              <div>
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
-              </div>
-
-              <div>
-                <img src="/src/assets/icons/seal-check.svg" alt="Check">
-              </div>
-            </li>
+            </li> -->
           </ul>
         </div>
       </section>
