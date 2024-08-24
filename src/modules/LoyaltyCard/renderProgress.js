@@ -2,7 +2,7 @@ const totalCutsRemaining = document.getElementById("totalCutsRemaining")
 const totalCutsControll = document.getElementById("totalCutsControll")
 const progressBar = document.getElementById("progressBar")
 
-export function progress({ loyaltyCard }) {
+export function renderProgress({ loyaltyCard }) {
   const { totalCuts, cutsNeeded, cutsRemaining } = loyaltyCard;
 
   totalCutsRemaining.innerText = cutsRemaining

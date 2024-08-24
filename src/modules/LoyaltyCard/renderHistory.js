@@ -1,8 +1,10 @@
 const amount = document.getElementById("amount")
 const historyList = document.getElementById("historyList")
 
-export function history({ appointmentHistory }) {
+export function renderHistory({ appointmentHistory }) {
   amount.innerText = `${appointmentHistory.length} cortes`
+
+  historyList.innerHTML = ""
 
   appointmentHistory.forEach((appointment) => {
     const li = document.createElement("li")
