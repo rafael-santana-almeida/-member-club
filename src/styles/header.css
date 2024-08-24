@@ -62,3 +62,15 @@
     background-color: var(--gray-600);
   }
 }
+
+@media (max-width: 37.5rem) {
+  .header-container {
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+
+    img {
+      height: 3rem;
+    }
+  }
+}

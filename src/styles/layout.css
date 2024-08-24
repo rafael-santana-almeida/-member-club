@@ -15,3 +15,14 @@ main {
   column-gap: 1.5rem;
   row-gap: 1rem;
 }
+
+@media (max-width: 54.375rem) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "user"
+      "loyalty-card"
+      "progess"
+      "history"
+  }
+}

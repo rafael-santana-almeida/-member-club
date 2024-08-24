@@ -1,7 +1,7 @@
 .history-container {
   grid-area: history;
 
-  padding-top: 1.75rem;
+  padding-block: 1.75rem;
   padding-right: 0.5rem;
 
   background-color: var(--gray-100);
@@ -94,5 +94,18 @@
         height: 1.5rem;
       }
     }
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .history-container {
+    height: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .history-content {
+    overflow: initial;
+    padding-inline: 1.25rem;
   }
 }
